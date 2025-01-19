@@ -1,4 +1,4 @@
-package java.local.laptop;
+package com.local.laptop_mvc;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
