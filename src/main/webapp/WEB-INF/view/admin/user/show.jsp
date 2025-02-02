@@ -41,6 +41,7 @@
                                                     <th>Id</th>
                                                     <th>Email</th>
                                                     <th>Full name</th>
+                                                    <th>Role</th>
                                                     <th>Action</th>
                                                 </tr>
                                             </thead>
@@ -50,6 +51,9 @@
                                                         <td>${user.id}</td>
                                                         <td>${user.email}</td>
                                                         <td>${user.fullname}</td>
+                                                        <td>
+                                                            <div class="badge text-bg-primary">${user.role.name}</div>
+                                                        </td>
                                                         <td>
                                                             <a href="/admin/user/${user.id}"
                                                                 class="btn btn-success">View</a>
